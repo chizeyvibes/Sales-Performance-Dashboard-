@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.filters {
+    margin: 20px 0;
+}
+
+select, button {
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    background: #2e59d9;
+    color: white;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+canvas {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #1e1e2f;
+    color: white;
+}
+
+.dark-mode .card,
+.dark-mode canvas {
+    background: #2a2a40;
+    color: white;
+}

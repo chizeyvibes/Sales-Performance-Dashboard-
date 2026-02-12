@@ -1,0 +1,8 @@
+[
+  {"month": "January", "category": "Electronics", "revenue": 12000, "orders": 50},
+  {"month": "January", "category": "Clothing", "revenue": 8000, "orders": 40},
+  {"month": "February", "category": "Electronics", "revenue": 15000, "orders": 60},
+  {"month": "February", "category": "Clothing", "revenue": 7000, "orders": 35},
+  {"month": "March", "category": "Furniture", "revenue": 10000, "orders": 30},
+  {"month": "March", "category": "Electronics", "revenue": 9000, "orders": 45}
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <div class="chart-container">
+    <canvas id="salesChart"></canvas>
+</div>
+
+<head>
+    <title>Sales Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Sales Analytics Dashboard</h1>
+
+    <div class="filters">
+        <select id="monthFilter" onchange="updateDashboard()">
+            <option value="All">All Months</option>
+        </select>
+
+        <select id="categoryFilter" onchange="updateDashboard()">
+            <option value="All">All Categories</option>
+        </select>
+
+        <button id="darkModeToggle">Dark Mode</button>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Total Revenue</h3>
+            <h2 id="totalRevenue">$0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Total Orders</h3>
+            <h2 id="totalOrders">0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Avg Order Value</h3>
+            <h2 id="avgOrderValue">$0</h2>
+        </div>
+    </div>
+
+    <canvas id="revenueChart"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+<script src="script.js"></script>
+</html>

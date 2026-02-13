@@ -36,4 +36,24 @@ This project demonstrates dynamic data filtering, KPI calculations, and real-tim
     ├── data.json         # Sample sales data
     ├── README.md         # Project documentation ```
 
+## 📊 Dashboard Preview
+
+The Sales Performance Dashboard supports **Light Mode** and **Dark Mode** for a modern, user‑friendly experience.
+
+### 🌞 Light Mode
+![Light Mode Dashboard](preview2.png)  
+*Clean and professional view with bright visuals for clarity.*
+
+### 🌙 Dark Mode
+![Dark Mode Dashboard](preview1.png)  
+*Modern dark theme for reduced eye strain and sleek presentation.*
+
+---
+
+### 🔎 What the Dashboard Shows
+- **KPIs at a glance** – Total Revenue, Orders, Average Order Value  
+- **Sales Trends** – Monthly and category‑wise performance  
+- **Interactive Charts** – Visual insights powered by Chart.js  
+- **Responsive Design** – Works seamlessly across devices  
+
 

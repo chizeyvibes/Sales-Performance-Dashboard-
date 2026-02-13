@@ -28,14 +28,6 @@ This project demonstrates dynamic data filtering, KPI calculations, and real-tim
 
 ---
 
-## 📂 Project Structure
-
-``` ├── index.html        # Main dashboard page
-    ├── style.css         # Styling and layout
-    ├── script.js         # Dashboard logic & Chart.js integration
-    ├── data.json         # Sample sales data
-    ├── README.md         # Project documentation ```
-
 ## 📊 Dashboard Preview
 
 The Sales Performance Dashboard supports **Light Mode** and **Dark Mode** for a modern, user‑friendly experience.
@@ -55,5 +47,16 @@ The Sales Performance Dashboard supports **Light Mode** and **Dark Mode** for a 
 - **Sales Trends** – Monthly and category‑wise performance  
 - **Interactive Charts** – Visual insights powered by Chart.js  
 - **Responsive Design** – Works seamlessly across devices  
+
+
+
+## 📂 Project Structure
+
+``` ├── index.html        # Main dashboard page
+    ├── style.css         # Styling and layout
+    ├── script.js         # Dashboard logic & Chart.js integration
+    ├── data.json         # Sample sales data
+    ├── README.md         # Project documentation ```
+
 
 

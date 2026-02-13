@@ -30,3 +30,10 @@ This project demonstrates dynamic data filtering, KPI calculations, and real-tim
 
 ## 📂 Project Structure
 
+``` ├── index.html        # Main dashboard page
+    ├── style.css         # Styling and layout
+    ├── script.js         # Dashboard logic & Chart.js integration
+    ├── data.json         # Sample sales data
+    ├── README.md         # Project documentation ```
+
+
